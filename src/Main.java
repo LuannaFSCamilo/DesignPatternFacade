@@ -9,5 +9,9 @@ public class Main {
 
         Scanner input = new Scanner(System.in);
         int tipo = input.nextInt();
+
+        Combo combo = new Combo();
+        combo.CriarCombo(tipo);
+        System.out.println(combo);
     }
 } 
